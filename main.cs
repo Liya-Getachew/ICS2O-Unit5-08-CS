@@ -29,7 +29,7 @@ class Program
 
         if (num1 > 0 && num2 > 0)
         {
-            while (remainder + 1 > num2) 
+            while (remainder + 1 > num2)
             {
                 remainder = remainder - num2;
                 counter++;
@@ -38,9 +38,9 @@ class Program
         }
         else
         {
-          Console.WriteLine("Please enter POSITIVE numbers, thank you!");
+            Console.WriteLine("Please enter POSITIVE numbers, thank you!");
         }
-       
+
         Console.WriteLine("\nDone.");
     }
 }
